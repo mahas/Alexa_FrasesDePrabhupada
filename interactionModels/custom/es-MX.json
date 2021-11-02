@@ -1,0 +1,49 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "frases de prabhupada",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "claro que sí",
+            "ajá",
+            "positivo",
+            "por supuesto",
+            "obvio",
+            "claro",
+            "si",
+            "sí"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "de ninguna manera",
+            "para nada",
+            "negativo",
+            "no"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}

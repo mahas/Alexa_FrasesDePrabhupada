@@ -1,0 +1,106 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "es-ES": {
+          "summary": "Frases inspiradoras de Srila Prabhupada",
+          "examplePhrases": [
+            "Alexa, inicia Frases de Prabhupada"
+          ],
+          "keywords": [
+            "Prabhupada",
+            "frases",
+            "celebres",
+            "hare",
+            "Krishna",
+            "hinduismo",
+            "vaisnavismo",
+            "vaisnava"
+          ],
+          "name": "Frases de Prabhupada",
+          "description": "Alexa leerá para ti frases y citas célebres de Srila Prabhupada. Puedes pedirle a Alexa que lea cuantas quieras.",
+          "smallIconUri": "file://assets/images/es-ES_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-ES_largeIconUri.png"
+        },
+        "es-US": {
+          "summary": "Frases inspiradoras de Srila Prabhupada",
+          "examplePhrases": [
+            "Alexa, inicia Frases de Prabhupada"
+          ],
+          "keywords": [
+            "Prabhupada",
+            "frases",
+            "celebres",
+            "hare",
+            "Krishna",
+            "hinduismo",
+            "vaisnavismo",
+            "vaisnava"
+          ],
+          "name": "Frases de Prabhupada",
+          "description": "Alexa leerá para ti frases y citas célebres de Srila Prabhupada. Puedes pedirle a Alexa que lea cuantas quieras.",
+          "smallIconUri": "file://assets/images/es-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-US_largeIconUri.png"
+        },
+        "es-MX": {
+          "summary": "Frases inspiradoras de Srila Prabhupada",
+          "examplePhrases": [
+            "Alexa, inicia Frases de Prabhupada"
+          ],
+          "keywords": [
+            "Prabhupada",
+            "frases",
+            "celebres",
+            "hare",
+            "Krishna",
+            "hinduismo",
+            "vaisnavismo",
+            "vaisnava"
+          ],
+          "name": "Frases de Prabhupada",
+          "description": "Alexa leerá para ti frases y citas célebres de Srila Prabhupada. Puedes pedirle a Alexa que lea cuantas quieras.",
+          "smallIconUri": "file://assets/images/es-MX_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-MX_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [],
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Just ask Alexa to open the skill, let Alexa reads a quote, next you have to choose \"yes\" or \"not\" (in Spanish\u003d sí, no). That\u0027s all.",
+      "category": "RELIGION_AND_SPIRITUALITY",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:809951876323:function:f0cd0426-8332-41a0-970c-f894a6c0717c:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "es-ES": {
+          "termsOfUseUrl": "http://mahas.github.io/bhagavadgita/prabhupadaTermsOfUse.html",
+          "privacyPolicyUrl": "https://mahas.github.io/bhagavadgita/PrabhupadaPrivacyPolicy.html"
+        },
+        "es-US": {
+          "termsOfUseUrl": "http://mahas.github.io/bhagavadgita/prabhupadaTermsOfUse.html",
+          "privacyPolicyUrl": "https://mahas.github.io/bhagavadgita/PrabhupadaPrivacyPolicy.html"
+        },
+        "es-MX": {
+          "termsOfUseUrl": "http://mahas.github.io/bhagavadgita/prabhupadaTermsOfUse.html",
+          "privacyPolicyUrl": "https://mahas.github.io/bhagavadgita/PrabhupadaPrivacyPolicy.html"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
